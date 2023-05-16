@@ -1,0 +1,108 @@
+* {
+    font-family: sans-serif;
+    /* border: 1px solid red; */
+}
+
+body {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: inline-block;
+    margin-top: 15%;
+}
+
+.sign-in-box {
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 6px;
+}
+
+.sign-in {
+    padding-top: 0px;
+}
+
+.field {
+    padding-right: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.password-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.password {
+    padding-left: 50px;
+}
+
+.forgot-password {
+    text-align: right;
+}
+
+.continue-button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.continue {
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(245, 197, 66);
+    border: none;
+    box-shadow: 1px 1px 1px 1px grey;
+    border-radius: 2px;
+}
+
+.help {
+    list-style-type: square;
+}
+a {
+    text-decoration: none;
+}
+
+.new-to-amazon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.divider {
+    max-height: 50px;
+}
+
+.create {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px grey;
+    border-radius: 2px;
+    border: 1px solid grey;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.link {
+    padding-left: 20px;
+    padding-right: 20px;
+}
